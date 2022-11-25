@@ -22,6 +22,6 @@ app.post('/songs', async (req, res) => {
 })
 
 app.listen(PORT, async () => {
-  await seed()
+   await seed()
     console.log(`Listening on port ${PORT}`)
 })
