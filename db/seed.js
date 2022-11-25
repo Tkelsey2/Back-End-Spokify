@@ -17,7 +17,8 @@ async function seed(){
             artist:obj.artistName,
             rating:Math.round(Math.random() * (10-5)+5),
             album: obj.albumName,
-            img: `https://api.napster.com/imageserver/v2/albums/${obj.albumId}/images/500x500.jpg`
+            img: `https://api.napster.com/imageserver/v2/albums/${obj.albumId}/images/500x500.jpg`,
+            link: obj.previewURL
          }
      })
      
