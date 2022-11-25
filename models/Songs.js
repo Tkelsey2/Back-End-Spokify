@@ -4,11 +4,6 @@ const db = require ('../db/db')
 class Songs extends Model {}
 
 Songs.init({
-    id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true
-    },
     title:{ 
         type: DataTypes.STRING,
         allowNull:false
